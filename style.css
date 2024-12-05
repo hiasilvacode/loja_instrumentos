@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(Captura\ de\ tela\ 2024-12-04\ 012531.png);
+    background-size: cover;
+  }
+  
+  header .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+   
+    
+  }
+
+  
+  header .menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-color: #fff;
+    border-style: outset; color: #f4f4f4;
+    text-align: right;
+    
+  }
+  
+  .banner {
+    display: flex;
+    padding: 20px;
+    background-color: #9e0000;
+  }
+  
+  .banner-text {
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .banner-image img {
+    width: 200%;
+    height: 100%;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .product {
+    text-align: center;
+    margin: 15px;
+    width: 200px;
+  }
+  
+  .location {
+    background-color: brown;
+    display: flex;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .map iframe {
+    width: 300px;
+    height: 200px;
+    background-image: url(Captura\ de\ tela\ 2024-12-04\ 014346.png);
+  }
+
+  .address {
+    text-align: right;
+    margin: 100px;
+    height: 20%;
+  }
+  
+  .contact {
+    padding: 20px;
+    text-align: left;
+    width: 200px;
+    height: 300px;
+    
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .social img {
+    width: 30px;
+    margin: 0 5px;
+  }
+
+  .quadrados {
+    background-size: cover;
+    text-align: right;
+    
+  }
+
+  .quadro {
+    width: 50%;
+    height: 70%;
+    text-align: right;
+   
+  
+  }
